@@ -14,7 +14,8 @@
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "mongoose": "^6.0.13",
-    "moongoose": "0.0.5"
+    "moongoose": "0.0.5",
+    "validator": "^13.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

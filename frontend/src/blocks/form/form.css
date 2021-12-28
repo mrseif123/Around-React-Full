@@ -1,0 +1,32 @@
+@import url("./__field/form__field.css");
+@import url("./__field-error/form__field-error.css");
+@import url("./__field/_invalid/form__field_invalid.css");
+@import url("./__submit-btn/form__submit-btn.css");
+@import url("./__submit-btn/_inactive/form__submit-btn_inactive.css");
+@import url("./__title/form__title.css");
+@import url("./__close-btn/form__close-btn.css");
+@import url("./__close-img/form__close-img.css");
+@import url("./__tooltip/form__tooltip.css");
+@import url("./__submit-btn/_dark/form__submit-btn_dark.css");
+@import url("./__input/_dark/form__input_dark.css");
+@import url("./__result/form__result.css");
+
+.form {
+  width: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_visible {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 525px) {
+  .form {
+    width: 282px;
+  }
+}

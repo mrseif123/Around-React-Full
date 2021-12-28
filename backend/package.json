@@ -1,0 +1,35 @@
+{
+  "name": "around-express",
+  "version": "1.0.0",
+  "description": "Project 12",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "depcheck": "^1.4.2",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.13",
+    "moongoose": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrseif123/Around-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrseif123/Around-Express/issues"
+  },
+  "homepage": "https://github.com/mrseif123/Around-Express#readme"
+}

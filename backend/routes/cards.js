@@ -62,7 +62,7 @@ router.put(
       .keys({
         authorization: Joi.string()
           .regex(
-            idPattern,
+            /^(Bearer )[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_.+/=]*$/,
           )
           .required(),
       })

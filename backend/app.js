@@ -15,7 +15,7 @@ const BadRequestError = require('./errors/bad-request-err');
 const NotFoundError = require('./errors/not-found-err');
 const ConflictError = require('./errors/conflict-err');
 
-const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 const app = express();
 
 mongoose.connect('mongodb://localhost:27017/aroundb', {

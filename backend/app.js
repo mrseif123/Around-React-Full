@@ -18,12 +18,7 @@ const ConflictError = require('./errors/conflict-err');
 const { PORT = 3000 } = process.env;
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/aroundb', {
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://localhost:27017/aroundb');
 
 app.use(cors());
 app.options('*', cors());

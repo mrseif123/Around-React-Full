@@ -112,9 +112,8 @@ module.exports.createUser = (req, res, next) => {
       } else if ((err.name === 'MongoError') && (err.code === 11000)) {
         throw new ConflictError('User already taken');
       }
-      next(err);
-    })
-    .catch(next);
+      next();
+    });
 };
 
 module.exports.login = (req, res, next) => {

@@ -5,4 +5,4 @@ This repository contains the full API of "Around the U.S." project that features
 * a link to repository with the complete React application which uses this API;
 * a link to the website that hosts your API.
 
-Domain: <https://www.mrseif123.students.nomoreparties.site>
+Domain: <https://mrs.students.nomoreparties.sbs/>

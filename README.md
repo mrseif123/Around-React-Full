@@ -11,6 +11,7 @@ This repository contains the full API of "Around the U.S." project that features
 - Server IP: 35.203.172.110
 - Front-end: https://mrs.students.nomoreparties.sbs/
 - Back-end/Api: https://api.mrs.students.nomoreparties.sbs/
+- GitHub Pages: https://mrseif123.github.io/Around-React-Full/
 
 # Links TBD
 * Link to repository with the complete React application which uses this API;

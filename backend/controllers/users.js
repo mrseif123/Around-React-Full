@@ -109,7 +109,7 @@ module.exports.createUser = (req, res, next) => {
     .catch((err) => {
       if (err.name === 'ValidationError') {
         throw new BadRequestError('Unable to create user. Please try again later.');
-      } else if (err.name === 'MongoError') {
+      } else if ((err.name === 'MongoError') && (err.code === 11000)) {
         throw new ConflictError('User already taken');
       }
       next(err);

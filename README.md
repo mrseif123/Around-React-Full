@@ -12,10 +12,6 @@ This repository contains the full API of "Around the U.S." project that features
 - Front-end: https://mrs.students.nomoreparties.sbs/
 - Back-end/Api: https://api.mrs.students.nomoreparties.sbs/
 
-# Links TBD
-* Link to repository with the complete React application which uses this API;
-* Link to the website that hosts the API.
-
 # Project 15: Around the U.S. Front End + Back End
 
 - Part of the [Practicum by Yandex](https://practicum.yandex.com/) Web Development Bootcamp Curriculum.
